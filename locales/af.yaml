@@ -16,57 +16,57 @@ bots:
   help: |
     🔹 چرا باید یک روبات متصل کنم؟
     
-    This avoid some Bot API limits for a better user experience, speed and stability. You can connect one bot and use it for all your channels. 
+    این برای جلوگیری از محدودیت های API و تجربه کاربری بهتر میباشد. شما میتوانید یک روبات متصل کنید و از آن برای کنترل همه کانال های خود استفاده کنید.
     
-    Message us at @ControllerSupportBot if any issues appeared when you connect your own bot.
+    اگر در اتصال روبات خود با مشکلی رو به رو شدید، با ما از طریق @ControllerSupportBot تماس بگیرید.
 
 start:
   welcome: |
-    <b>Controller Bot</b> — excellent bot for channel owners that helps you send formatted posts and create scheduled posts in your channels.
+    <b>Controller Bot</b> — یک روبات بسیار عالی برای صاحبان و ادمین های کانال های تلگرام که به آنها اجازه میدهد پست های فرمت شده ارسال کنند یا پست هایی را برای ارسال در آینده آماده کنند تا به صورت خودکار در زمان برنامه ریزی شده ارسال شوند.
     
-    <b>Formatted Posts.</b> Send posts with bold, italic, fixed-width text and inline links.
+    <b>Formatted Posts.</b> پست های متنی به صورت پررنگ، کج، با عرض ثابت یا با لینک ارسال کنید.
     
-    <b>Scheduled Posts.</b> Create an unlimited number of scheduled posts in your channels.
+    <b>Scheduled Posts.</b> به تعداد نامحدود پست برای ارسال در کانال خود آماده وبه صورت خودکار ارسال کنید.
     
-    <b>URL Buttons.</b> Add to any post inline buttons that can open links.
+    <b>URL Buttons.</b> به هر نوع پستی، دکمه شیشه ای با امکان قرار دادن لینک اضافه کنید.
     
-    <b>Admins.</b> Add admins to help you send new posts and manage scheduled posts.
+    <b>Admins.</b> به کانال خود ادمین اضافه کنید تا در ارسال و مدیریت پست ها به شما کمک کنند.
 
-    <b>Stats.</b> Easy collect and track a number of members in your channels for certain periods of time.
+    <b>Stats.</b> به سادگی تعداد و تغییرات اعضای کانال را دنبال و بررسی کنید.
 
-    <b>Reactions</b>. Add to your posts emoji-based like buttons and collect reactions of members in your channels.
+    <b>Reactions</b>. به پست های خود دکمه های عکس العمل مثل لایک و غیره اضافه کنید و عکس العمل اعضا را به پست های کانال بررسی کنید.
     
-    Bot can send posts silently and disable previews for links, as well as accepts all message types and supports built-in formatting options of Telegram clients.
+    این روبات میتوانید پست ها را به صورت بی صدا ارسال کند و پیش نمایش لینک ها را غیر فعال کند. علاوه بر آن همه انواع پست ها را قبول میکند و از گزینه های فرمت کردن متن به صورت پیش فرض پشتیبانی میکند.
     
-    <b>How to start?</b>
-    Send /addchannel, choose a connected bot or add a new one and follow the instructions to add a new channel.
+    <b>چگونه آغاز کنم؟</b>
+    دستور /addchannel را بفرستید و سپس روبات مورد نظر خود را انتخاب کنید یا یک روبات جدید اضافه کنید و دستورات را دنبال کنید.
     
-    Message us at @ControllerSupportBot if you have any questions or issues about Controller Bot.
+    اگر با این روبات مشکلی داشتید، از طریق @ControllerSupportBot به ما پیام بدهید
     
-    /rate — rate bot
-    /help — get a list of commands
-  do: OK. What do you want to do?
-  choose_language: Please choose your language.
-  language_changed: OK, your language saved.
+    /rate — به این روبات امتیاز بدهید
+    /help — لیست دستورات روبات
+  do: حالا میخواهید چه عملی انجام دهید؟
+  choose_language: لطفا زبان مورد نظر خود را انتخاب کنید.
+  language_changed: زبان شما ذخیره شد.
   rate: |
-    Give us 5 stars on Store Bot if you like Controller Bot: t.me/storebot?start=ControllerBot
+    اگر این روبات را دوست دارید، به آن امتیاز ۵ ستاره بدهید: t.me/storebot?start=ControllerBot
   help: |
-    I can help you send formatted posts and create scheduled posts in your channels.
+    من میتوانم در ارسال پیام های فرمت شده و برنامه ریزی برای پست در کانال شما برای آینده به شما کمک کنم.
 
-    You can control me by sending these commands:
+    شما میتوانید برای کنترل کردن من از این دستورات استفاده کنید:
     
-    /channels - manage channels
-    /addchannel - add a new channel
+    /channels - مدیریت کانال ها
+    /addchannel - اضافه کردن کانال جدید
 
-    /create - create a new post
-    /manage - manage posts
+    /create - ارسال پست جدید
+    /manage - مدیریت پست ها
        
-    /stats - get stats for a channel
-    /feedback - how to contact the devs
+    /stats - آمار اعضای کانال
+    /feedback - ارتباط با سازندگان روبات
     
-    /rate - rate bot
+    /rate - امتیاز بدهید
     
-    /cancel - cancel the current operation
+    /cancel - لغو عملیات فعلی
     
   feedback:
     Message us at @ControllerSupportBot if you have any questions or issues about Controller Bot.
